@@ -1,0 +1,27 @@
+colorlist = ["white", "red", "purple", "orange"]
+for color in colorlist:
+    print(color)
+    
+n = 0
+for n in range(10):
+    print (n)
+   
+n = 0
+while n < 10:
+  print(n)
+  n += 1
+  
+n = 0
+while n < 11:
+  print(n)
+  n += 1
+else:
+    print("greater than 10")
+    
+n = 30
+sum = 0
+i = 1
+while i <= n:
+    sum = sum + i
+    i = i+1    
+print("The sum is", sum)
